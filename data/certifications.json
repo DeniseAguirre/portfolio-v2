@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "title": "Testing QA Manual",
+    "date": "2022",
+    "credentialUrl": "https://pub.coderhouse.com/legacy-certificates/63176c602a3b4d00d03c9be5?lang=es",
+    "imageUrl": "https://i.postimg.cc/W3YfXdb5/coderhouselogo.png?height=80&width=160",
+    "issuer": "Coder House",
+    "skills": ["Postman", "Report", "Testing"]
+  },
+  {
+    "id": 2,
+    "title": "HTML Fundamentals Course",
+    "date": "2017",
+    "credentialUrl": "https://www.sololearn.com/Certificate/CT-TPNM92XO/pdf",
+    "imageUrl": "https://i.postimg.cc/Nf3DQ5Gr/sololearnlogo.png?height=80&width=160",
+    "issuer": "Solo Learn",
+    "skills": ["HTML"]
+  },
+  {
+    "id": 3,
+    "title": "Fundamentos de Marketing Digital",
+    "date": "2017",
+    "credentialUrl": "https://drive.google.com/file/d/0B9demP0S0Y6ZaDl5TlVUSmM5bk0/view?usp=sharing&resourcekey=0-RVo_eHq0bZJ47gtnC1cF_w",
+    "imageUrl": "https://i.postimg.cc/gcC4WNKK/googlelogo.png?height=80&width=160",
+    "issuer": "Google",
+    "skills": ["Facebook Ads", "Google Ads"]
+  },
+  {
+    "id": 4,
+    "title": "Diseño web y comunicación digital",
+    "date": "2020",
+    "credentialUrl": "https://drive.google.com/file/d/1TNIWGfCCVYJgfovxjt_A2AwCLcRkJ5h-/view",
+    "imageUrl": "https://i.postimg.cc/6Q1RWpCv/unpaz-logo.jpg?height=80&width=160",
+    "issuer": "Universidad Nacional de José C. Paz",
+    "skills": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "wix"]
+  },
+  {
+    "id": 5,
+    "title": "Se programar",
+    "date": "2021",
+    "credentialUrl": "https://mumuki.io/argentina-programa/certificates/verify/B3nWUlJFo6AOlTrn",
+    "imageUrl": "https://i.postimg.cc/4nC1QbPZ/mumuki-logo.png?height=80&width=160",
+    "issuer": "Argentina Programa",
+    "skills": ["Javascript", "Ruby", "Programming Fundamentals"]
+  },
+  {
+    "id": 5,
+    "title": "Resposive Web Design",
+    "date": "2022",
+    "credentialUrl": "https://www.freecodecamp.org/certification/fcc41d2aa32-aa4f-4ab1-8598-993b38d0c88a/responsive-web-design",
+    "imageUrl": "https://i.postimg.cc/wBvyGR7m/freecodecamp-logo.png?height=80&width=160",
+    "issuer": "freeCodeCamp",
+    "skills": ["Web Design", "HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "id": 6,
+    "title": "Introducción a Software Testing QA",
+    "date": "2022",
+    "credentialUrl": "https://api.educacionit.com/pdf/certificados/Denise-Claribel-Aguirre-Martinez-825027/60762",
+    "imageUrl": "https://i.postimg.cc/dVTHb3pL/edIT.jpg?height=80&width=160",
+    "issuer": "Educación IT",
+    "skills": ["Postman", "Report", "Testing"]
+  },
+  {
+    "id": 7,
+    "title": "Primeros pasos del desarrollo frontend",
+    "date": "2023",
+    "credentialUrl": "https://drive.google.com/file/d/1TFsKkluhsz1rw9lCLM12RRDPhXvUfOph/view?usp=sharing",
+    "imageUrl": "https://i.postimg.cc/bJDwbKvG/APLOGO.png?height=80&width=160",
+    "issuer": "Argentina Programa 4.0",
+    "skills": ["CSS3", "HTML5", "Javascript", "Bootstrap"]
+  },
+  {
+    "id": 8,
+    "title": "Programación inicial con Python",
+    "date": "2022",
+    "credentialUrl": "https://drive.google.com/file/d/18l7KQjtiz0aOsRJIenZVf42bPNQg7Wsc/view",
+    "imageUrl": "https://i.postimg.cc/8PpvqzXN/124fe5d6bc38ce675e9be8d2c05fbc11.jpg?height=80&width=160",
+    "issuer": "Gobierno de la Ciudad de Buenos Aires",
+    "skills": ["Soft skills", "Programming Fundamentals", "Python"]
+  },
+  {
+    "id": 9,
+    "title": "Entrenamiento en Ciberseguridad",
+    "date": "2023",
+    "credentialUrl": "https://apolo-cert.deltaprotect.com/certificate/ed55e48c-7a18-5c1a-bf02-3186d42baeea",
+    "imageUrl": "https://i.postimg.cc/WbHqyLD4/deltalogo.jpg?height=80&width=160",
+    "issuer": "Delta Protect",
+    "skills": [
+      "Types of cyber attacks",
+      "Detection and prevention of cyber attacks"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Desarrollador Web Full Stack MERN & Mobile Apps",
+    "date": "2023",
+    "credentialUrl": "https://www.credly.com/badges/63a93c65-32bb-497f-84ef-72e2365cc131/linked_in_profile",
+    "imageUrl": "https://i.postimg.cc/yxZLtXVQ/mindhublogo.jpg?height=80&width=160",
+    "issuer": "MindHub",
+    "skills": [
+      "Agile",
+      "Bootstrap",
+      "CSS",
+      "HTML",
+      "Javascript",
+      "MongoDB",
+      "NodeJS",
+      "ReactJS",
+      "SQL",
+      "React Native Mobile Apps Development",
+      "Selenium"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "CSS a la velocidad de TailwindCSS",
+    "date": "2024",
+    "credentialUrl": "https://certificados.donweb.com/212/212_deniseaguirre.m@gmail.com",
+    "imageUrl": "https://i.postimg.cc/sDJmv2pX/donweb1.png?height=80&width=160",
+    "issuer": "Donweb y EducaciónIT",
+    "skills": ["css", "tailwindcss"]
+  }
+]
