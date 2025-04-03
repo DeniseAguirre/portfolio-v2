@@ -30,7 +30,7 @@ export default function ContactCard() {
       >
         <div className="flex flex-col items-center justify-center rounded-lg border bg-background p-8 shadow-sm transition-all hover:border-primary hover:shadow-md">
           <FaWhatsapp className="mb-3 h-10 w-10 text-primary" />
-          <span className="text-center text-sm font-medium">WhatsaApp</span>
+          <span className="text-center text-sm font-medium">WhatsApp</span>
         </div>
       </a>
     </div>
