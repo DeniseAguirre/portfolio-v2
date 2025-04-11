@@ -3,7 +3,6 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import ProjectCard from "@/components/project-card";
 import TechStack from "@/components/tech-stack";
 import CertificationCard from "@/components/certification-card";
-import ContactForm from "@/components/contact-form";
 import DownloadCVButton from "@/components/download-cv-button";
 import Certifications from "@/data/certifications.json";
 import ContactCard from "@/components/contact-card";
@@ -125,6 +124,35 @@ export default function Home() {
             Proyectos
           </h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <ProjectCard
+              title="Task Manager API v1"
+              description="Esta es una API RESTful para la gestión de tareas, desarrollada con NestJS, TypeORM y documentada con Swagger."
+              tags={[
+                "Nest.js",
+                "Typescript",
+                "Postgresql",
+                "Eslint",
+                "Jest",
+                "Swagger",
+              ]}
+              imageUrl="/api-tm.png"
+              demoUrl="https://task-manager-pg.onrender.com/api/docs#/"
+              repoUrl="https://github.com/DeniseAguirre/task-manager-pg"
+            />
+            <ProjectCard
+              title="Task Manager"
+              description="Esta aplicación permite a los usuarios crear, ver, editar y eliminar tareas, así como marcarlas como completadas."
+              tags={[
+                "Next.js",
+                "Tailwind CSS",
+                "Typescript",
+                "Sweet Alert",
+                "Axios",
+              ]}
+              imageUrl="/home-tm.png"
+              demoUrl="https://task-manager-forit.vercel.app/"
+              repoUrl="https://github.com/DeniseAguirre/task-manager-frontend"
+            />
             <ProjectCard
               title="El Despacho Website"
               description="El Despacho es un sitio web desarrollado con Next.js. Ofrece una experiencia intuitiva para los clientes, permitiéndoles explorar el menú, conocer la historia del emprendimiento y realizar pedidos en línea."
