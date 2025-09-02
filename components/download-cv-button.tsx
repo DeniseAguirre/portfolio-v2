@@ -11,11 +11,15 @@ import {
 
 export default function DownloadCVButton() {
   const downloadCV = (language: string) => {
-    const cvUrl = language === "es" ? "/cv-espanol.pdf" : "/cv-english.pdf";
+    const cvUrl =
+      language === "es"
+        ? "/CV_DeniseAguirre_Backend_Es.pdf"
+        : "/CV_DeniseAguirre_Backend_En.pdf";
 
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = language === "es" ? "CV-Español.pdf" : "CV-English.pdf";
+    link.download =
+      language === "es" ? "CV-DeniseAguirre-Es.pdf" : "CV-DeniseAguirre-En.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

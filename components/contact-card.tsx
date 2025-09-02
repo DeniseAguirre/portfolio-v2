@@ -1,4 +1,3 @@
-import React from "react";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 

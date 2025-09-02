@@ -1,16 +1,23 @@
-import Image from "next/image"
-import { Github, ExternalLink } from "lucide-react"
+import Image from "next/image";
+import { Github, ExternalLink } from "lucide-react";
 
 interface ProjectCardProps {
-  title: string
-  description: string
-  tags: string[]
-  imageUrl: string
-  demoUrl?: string
-  repoUrl?: string
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrl: string;
+  demoUrl?: string;
+  repoUrl?: string;
 }
 
-export default function ProjectCard({ title, description, tags, imageUrl, demoUrl, repoUrl }: ProjectCardProps) {
+export default function ProjectCard({
+  title,
+  description,
+  tags,
+  imageUrl,
+  demoUrl,
+  repoUrl,
+}: ProjectCardProps) {
   return (
     <div className="group overflow-hidden rounded-lg border bg-background shadow-sm transition-all hover:shadow-md">
       <div className="relative h-48 w-full overflow-hidden">
@@ -26,7 +33,10 @@ export default function ProjectCard({ title, description, tags, imageUrl, demoUr
         <p className="mb-4 text-muted-foreground">{description}</p>
         <div className="mb-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <span key={tag} className="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+            <span
+              key={tag}
+              className="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary"
+            >
               {tag}
             </span>
           ))}
@@ -57,6 +67,5 @@ export default function ProjectCard({ title, description, tags, imageUrl, demoUr
         </div>
       </div>
     </div>
-  )
+  );
 }
-

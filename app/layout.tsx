@@ -1,32 +1,44 @@
 import type React from "react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Suspense } from "react";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair",
+});
+
+const sourceSans = Source_Sans_3({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-source-sans",
+});
 
 export const metadata: Metadata = {
-  title: "Portfolio - Denise Aguirre",
-  description: "Portfolio personal de desarrollo full stack",
+  title: "Denise Aguirre - Backend Developer",
+  description:
+    "Backend Developer especializada en Node.js, NestJS, MongoDB y PostgreSQL. Creando APIs escalables y soluciones innovadoras.",
   generator: "Denise Aguirre",
+  keywords: [
+    "Backend Developer",
+    "Node.js",
+    "NestJS",
+    "MongoDB",
+    "PostgreSQL",
+    "API Development",
+  ],
+  authors: [{ name: "Denise Aguirre" }],
+  openGraph: {
+    title: "Denise Aguirre - Backend Developer",
+    description:
+      "Backend Developer especializada en Node.js, NestJS, MongoDB y PostgreSQL",
+    type: "website",
+  },
   icons: {
-    icon: [
-      {
-        url: "/object.png",
-        sizes: "32x32",
-      },
-      {
-        url: "/object.png",
-        type: "image/png",
-        sizes: "192x192",
-      },
-    ],
-    apple: {
-      url: "/object.png",
-      sizes: "180x180",
-      type: "image/png",
-    },
+    icon: "/favicon.svg",
   },
 };
 
@@ -37,15 +49,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+      <body
+        className={`font-sans ${sourceSans.variable} ${playfairDisplay.variable} antialiased`}
+      >
+        <Suspense fallback={null}>
+          <ThemeProvider defaultTheme="system">{children}</ThemeProvider>
+        </Suspense>
       </body>
     </html>
   );
