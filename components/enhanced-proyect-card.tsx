@@ -128,6 +128,9 @@ export default function EnhancedProjectCard({
               </a>
             </Button>
           )}
+        </div>
+
+        <div className="flex gap-3 pt-2">
           {webUrl && (
             <Button size="sm" asChild>
               <a
